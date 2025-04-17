@@ -1,28 +1,29 @@
-# CLTV-Prediction-Customer-Lifetime-Value-Prediction-BG-NBD-GammaGamma-CLTV
-BG-NBD-GammaGamma-CLTV CLTV-Analysis
-CLTV Prediction (Customer Lifetime Value)
+CLTV-Prediction-Customer-Lifetime-Value-Prediction-BG-NBD-GammaGamma-CLTV
+
+CLTV Analysis using BG-NBD and Gamma-Gamma Models
+Customer Lifetime Value Prediction
 
 Overview
 
-Bu proje, müşteri yaşam boyu değerini (CLTV) tahmin etmek için BG/NBD ve Gamma-Gamma modellerini kullanır. Müşteri alışveriş davranışlarını ve kazançlarını analiz ederek gelecekteki CLTV’yi tahmin eder.
-Features
+This project aims to predict Customer Lifetime Value (CLTV) using BG/NBD and Gamma-Gamma models.
+It analyzes customer purchasing behavior and revenue to estimate future CLTV.
 
-	•	BG/NBD Model ile müşteri başına beklenen işlem sayısını tahmin eder.
-	•	Gamma-Gamma Model ile müşteri başına beklenen ortalama kazancı hesaplar.
-	•	Müşterileri CLTV’ye göre segmentlere ayırır.
+Features
+	•	Predicts the expected number of transactions per customer using the BG/NBD model.
+	•	Calculates the expected average profit per customer using the Gamma-Gamma model.
+	•	Segments customers based on predicted CLTV.
 
 Usage
-
-	1.	Veriyi hazırlayın ve script’i çalıştırın.
-	2.	Modeller eğitildikten sonra müşteri CLTV tahminlerini ve segmentlerini alabilirsiniz.
-
+	1.	Prepare the data and run the script.
+	2.	After training the models, you can obtain CLTV predictions and customer segments.
 
 Results
 
-Müşteri başına beklenen işlem sayısı ve kazanç tahminleri yapılır. CLTV’ye göre müşteriler segmentlere ayrılır.
+The project estimates the expected number of transactions and revenue per customer.
+Customers are segmented based on their CLTV scores.
 
 Dependencies
-
 	•	Pandas
 	•	Matplotlib
 	•	Lifetimes
+
